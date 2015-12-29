@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3948A90E1C31C1C300ACE3C4 /* MomentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3948A90D1C31C1C300ACE3C4 /* MomentTests.swift */; };
+		3948A9101C31C1C300ACE3C4 /* libmomentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DBCC1F1C235EFA00E5C144 /* libmomentLib.a */; };
+		39DBCC2F1C235F5400E5C144 /* parseIt.y in Sources */ = {isa = PBXBuildFile; fileRef = 39DBCC2B1C235F5400E5C144 /* parseIt.y */; };
+		39DBCC301C235F5400E5C144 /* TimeParser.c in Sources */ = {isa = PBXBuildFile; fileRef = 39DBCC2C1C235F5400E5C144 /* TimeParser.c */; };
+		39DBCC311C235F5400E5C144 /* tokeIt.l in Sources */ = {isa = PBXBuildFile; fileRef = 39DBCC2E1C235F5400E5C144 /* tokeIt.l */; };
+		39DBCC6C1C2361C900E5C144 /* TimeParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 39DBCC2D1C235F5400E5C144 /* TimeParser.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3948A9111C31C1C300ACE3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DBCC171C235EFA00E5C144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DBCC1E1C235EFA00E5C144;
+			remoteInfo = momentLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39DBCC1D1C235EFA00E5C144 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				39DBCC6C1C2361C900E5C144 /* TimeParser.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3948A90B1C31C1C300ACE3C4 /* MomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3948A90D1C31C1C300ACE3C4 /* MomentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTests.swift; sourceTree = "<group>"; };
+		3948A90F1C31C1C300ACE3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3948A9191C31C6C800ACE3C4 /* MomentTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MomentTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		39DBCC1F1C235EFA00E5C144 /* libmomentLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmomentLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DBCC2B1C235F5400E5C144 /* parseIt.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = parseIt.y; sourceTree = "<group>"; };
+		39DBCC2C1C235F5400E5C144 /* TimeParser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TimeParser.c; sourceTree = "<group>"; };
+		39DBCC2D1C235F5400E5C144 /* TimeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeParser.h; sourceTree = "<group>"; };
+		39DBCC2E1C235F5400E5C144 /* tokeIt.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; path = tokeIt.l; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3948A9081C31C1C300ACE3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3948A9101C31C1C300ACE3C4 /* libmomentLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DBCC1C1C235EFA00E5C144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3948A90C1C31C1C300ACE3C4 /* MomentTests */ = {
+			isa = PBXGroup;
+			children = (
+				3948A90D1C31C1C300ACE3C4 /* MomentTests.swift */,
+				3948A90F1C31C1C300ACE3C4 /* Info.plist */,
+				3948A9191C31C6C800ACE3C4 /* MomentTests-Bridging-Header.h */,
+			);
+			path = MomentTests;
+			sourceTree = "<group>";
+		};
+		39DBCC161C235EFA00E5C144 = {
+			isa = PBXGroup;
+			children = (
+				39DBCC211C235EFA00E5C144 /* momentLib */,
+				3948A90C1C31C1C300ACE3C4 /* MomentTests */,
+				39DBCC201C235EFA00E5C144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39DBCC201C235EFA00E5C144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DBCC1F1C235EFA00E5C144 /* libmomentLib.a */,
+				3948A90B1C31C1C300ACE3C4 /* MomentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39DBCC211C235EFA00E5C144 /* momentLib */ = {
+			isa = PBXGroup;
+			children = (
+				39DBCC2B1C235F5400E5C144 /* parseIt.y */,
+				39DBCC2C1C235F5400E5C144 /* TimeParser.c */,
+				39DBCC2D1C235F5400E5C144 /* TimeParser.h */,
+				39DBCC2E1C235F5400E5C144 /* tokeIt.l */,
+			);
+			path = momentLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3948A90A1C31C1C300ACE3C4 /* MomentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3948A9151C31C1C300ACE3C4 /* Build configuration list for PBXNativeTarget "MomentTests" */;
+			buildPhases = (
+				3948A9071C31C1C200ACE3C4 /* Sources */,
+				3948A9081C31C1C300ACE3C4 /* Frameworks */,
+				3948A9091C31C1C300ACE3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3948A9121C31C1C300ACE3C4 /* PBXTargetDependency */,
+			);
+			name = MomentTests;
+			productName = MomentTests;
+			productReference = 3948A90B1C31C1C300ACE3C4 /* MomentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39DBCC1E1C235EFA00E5C144 /* momentLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DBCC281C235EFA00E5C144 /* Build configuration list for PBXNativeTarget "momentLib" */;
+			buildPhases = (
+				39DBCC1B1C235EFA00E5C144 /* Sources */,
+				39DBCC1C1C235EFA00E5C144 /* Frameworks */,
+				39DBCC1D1C235EFA00E5C144 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = momentLib;
+			productName = momentLib;
+			productReference = 39DBCC1F1C235EFA00E5C144 /* libmomentLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39DBCC171C235EFA00E5C144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kevin Musselman";
+				TargetAttributes = {
+					3948A90A1C31C1C300ACE3C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					39DBCC1E1C235EFA00E5C144 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 39DBCC1A1C235EFA00E5C144 /* Build configuration list for PBXProject "momentLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39DBCC161C235EFA00E5C144;
+			productRefGroup = 39DBCC201C235EFA00E5C144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39DBCC1E1C235EFA00E5C144 /* momentLib */,
+				3948A90A1C31C1C300ACE3C4 /* MomentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3948A9091C31C1C300ACE3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3948A9071C31C1C200ACE3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3948A90E1C31C1C300ACE3C4 /* MomentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DBCC1B1C235EFA00E5C144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DBCC2F1C235F5400E5C144 /* parseIt.y in Sources */,
+				39DBCC301C235F5400E5C144 /* TimeParser.c in Sources */,
+				39DBCC311C235F5400E5C144 /* tokeIt.l in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3948A9121C31C1C300ACE3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DBCC1E1C235EFA00E5C144 /* momentLib */;
+			targetProxy = 3948A9111C31C1C300ACE3C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3948A9131C31C1C300ACE3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MomentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MomentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MomentTests/MomentTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3948A9141C31C1C300ACE3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MomentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MomentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MomentTests/MomentTests-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		39DBCC261C235EFA00E5C144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39DBCC271C235EFA00E5C144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39DBCC291C235EFA00E5C144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "momentLib/momentLib-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39DBCC2A1C235EFA00E5C144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "momentLib/momentLib-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3948A9151C31C1C300ACE3C4 /* Build configuration list for PBXNativeTarget "MomentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3948A9131C31C1C300ACE3C4 /* Debug */,
+				3948A9141C31C1C300ACE3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39DBCC1A1C235EFA00E5C144 /* Build configuration list for PBXProject "momentLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DBCC261C235EFA00E5C144 /* Debug */,
+				39DBCC271C235EFA00E5C144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DBCC281C235EFA00E5C144 /* Build configuration list for PBXNativeTarget "momentLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DBCC291C235EFA00E5C144 /* Debug */,
+				39DBCC2A1C235EFA00E5C144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39DBCC171C235EFA00E5C144 /* Project object */;
+}
